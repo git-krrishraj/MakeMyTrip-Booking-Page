@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make My Trip</title>
+    <meta name="description" content="A form fill up clone for make my trip">
+    <meta name="author" content="Krrish Raj">
+    <link rel="icon" href="/logo2.png" type="image/png">
+    <link rel="stylesheet" href="/chapter 1/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="q1.html" target="_self"><img
+                    src="https://play-lh.googleusercontent.com/19I7zjhAAAud9AztLiIxD1MYVdHusoeaW2-7Fx2FUJvcVZBbUBcGKjBBVPsHkFBLWMs"
+                    width="80"></a>
+            <a href="">Travel plans</a>
+            <a href="">Offers</a>
+            <a href="">About us</a>
+            <a href="">Contact us</a>
+            <a href="">T&C</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Please fill out the form below to confirm your trip</h1>
+        <form action="">
+            <section>
+                <h2>Customer Details</h2>
+                <div>
+                    <label for="name">Customer name</label>
+                    <input id="name" type="text" placeholder="in block letters" required>
+                </div>
+                <div>
+                    <label for="ph">Phone number</label>
+                    <input id="ph" type="tel" placeholder="+91" required>
+                </div>
+                <div>
+                    <label for="gmail">Email adress(for sending tickets)</label>
+                    <input id="gmail" type="email" placeholder="email address" required>
+                </div>
+                <div>
+                    <label for="dob">Date of birth</label>
+                    <input id="dob" type="date" required>
+                </div>
+                <div>
+                    <label for="pass">Password</label>
+                    <input id="pass" type="password" placeholder="must be 8 characters long" required>
+                </div>
+                <div>
+                    <label for="gender">Gender</label>
+                    <select id="gender" required>
+                        <option value="test" selected disabled>Select your gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="gay">Cant say</option>
+                    </select>
+                </div>
+            </section>
+            <section>
+                <h2>Select your desired vacation spot</h2>
+                <input id="ind" type="radio" name="o1">
+                <label for="ind">India</label>
+                <input id="fra" type="radio" name="o1">
+                <label for="fra">France</label>
+                <input id="usa" type="radio" name="o1">
+                <label for="usa">United States</label>
+                <input id="jap" type="radio" name="o1">
+                <label for="jap">Japan</label>
+                <h2>Select the amount of time you wish to spend</h2>
+                <input id="one" type="radio" name="o2">
+                <label for="one">1 week</label>
+                <input id="three" type="radio" name="o2">
+                <label for="three">3 weeks</label>
+                <input id="five" type="radio" name="o2">
+                <label for="five">5 weeks</label>
+                <input id="more" type="radio" name="o2">
+                <label for="more">7+ weeks</label>
+            </section>
+            <hr>
+            <section>
+                <div>
+                <input id="cbox" type="checkbox" required>
+                <label>I have read all the terms and conditions</label>
+                </div>
+                <label for="ta">Special requests(if any)</label>
+                <textarea id="ta" rows="10" cols="100"></textarea>
+            </section>
+            <button type="submit" required>Confirm your order</button>
+            </form>
+    </main>
+    <footer>
+        Make My Trip (c) Copyright 2010-2026
+    </footer>
+    <script src="/chapter 1/js/script.js"></script>
+</body>
+
+</html>
